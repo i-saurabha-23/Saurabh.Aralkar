@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .logo a{
+  display: inline-flex;
+}
+.navbar .logo h2{
+  margin: 0.7rem;
+}
+.navbar .logo img{
+  width: 3%;
+}
