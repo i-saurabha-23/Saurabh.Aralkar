@@ -9,7 +9,7 @@ a {
 }
 .navbar{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .navbar .logo a{
   display: inline-flex;
@@ -19,6 +19,13 @@ a {
 }
 .navbar .logo img{
   width: 3%;
+}
+.navbar .menuitem{
+  display: flex;
+  margin: 1rem 2rem;
+}
+.navbar .menuitem nav{
+  margin: 0rem 1rem;
 }
 .viewer{
   text-align: center;
