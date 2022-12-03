@@ -20,3 +20,8 @@ a {
 .navbar .logo img{
   width: 3%;
 }
+.viewer{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
