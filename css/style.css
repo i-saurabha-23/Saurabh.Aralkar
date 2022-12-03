@@ -24,11 +24,15 @@ a {
   display: flex;
   margin: 1rem 2rem;
 }
-.navbar .menuitem nav{
+.navbar .menuitem nav a{
   margin: 0rem 1rem;
+  padding: 0.5rem;
 }
 .viewer{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+.navbar .menuitem nav a:hover{
+  background-color: skyblue;
 }
